@@ -60,5 +60,9 @@ namespace _20_12_2022_WPF
         {
             this.Close();
         }
+        private void _Stack_Panel_1_Click(object sender, RoutedEventArgs e)
+        {
+            _Stack_Panel_1.Background = Brushes.White;
+        }
     }
 }

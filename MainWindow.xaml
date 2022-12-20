@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_20_12_2022_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="415.96" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow">
+        Title="MainWindow" Height="415.96" Width="800" WindowStartupLocation="CenterScreen"  WindowStyle="ThreeDBorderWindow">
     <StackPanel x:Name="_Stack_Panel_1">
-       
+
         <Button x:Name="_1_Красный" Content="Красный" Height="50" Click="_1_Красный_Click"/>
         <Button x:Name="_2_Оранжевый" Content="Оранжевый" Height="50" Click="_2_Оранжевый_Click"/>
         <Button x:Name="_3_Желтый" Content="Желтый" Height="50" Click="_3_Желтый_Click"/>
