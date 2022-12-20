@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,32 +28,37 @@ namespace _20_12_2022_WPF
 
         private void _1_Красный_Click(object sender, RoutedEventArgs e)
         {
-
+            _Stack_Panel_1.Background = Brushes.Red;
+            
         }
-
         private void _2_Оранжевый_Click(object sender, RoutedEventArgs e)
         {
-
+            _Stack_Panel_1.Background = Brushes.Orange;
         }
 
         private void _3_Желтый_Click(object sender, RoutedEventArgs e)
         {
-
+            _Stack_Panel_1.Background = Brushes.Yellow;
         }
 
         private void _4_Зеленый_Click(object sender, RoutedEventArgs e)
         {
-
+            _Stack_Panel_1.Background = Brushes.Green;
         }
 
         private void _5_Синий_Click(object sender, RoutedEventArgs e)
         {
-
+            _Stack_Panel_1.Background = Brushes.Blue;
         }
 
         private void _6_Фиолетовый_Click(object sender, RoutedEventArgs e)
         {
+            _Stack_Panel_1.Background = Brushes.Violet;
+        }
 
+        private void _7_Exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
